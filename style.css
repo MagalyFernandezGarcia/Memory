@@ -56,16 +56,17 @@ section {
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 3rem;
 }
-section div.card {
+div.card {
     height: 30%;
-    width: 10%;
+    width: 25%;
     background-color: var(--secondary);
     color: antiquewhite;
     display: flex;
     flex-flow: column nowrap;
 }
-img {
+div.card img {
     height: 90%;
     width: auto;
 }
