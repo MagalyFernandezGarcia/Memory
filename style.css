@@ -36,8 +36,12 @@ header {
 
 footer {
     background-color: var(--secondary);
+    color: var(--bg-color);
     height: 10%;
     width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 main {
     background-color: var(--bg-color);
