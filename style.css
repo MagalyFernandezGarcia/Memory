@@ -35,17 +35,33 @@ header {
 }
 
 footer {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     height: 10%;
     width: 100vw;
 }
 main {
+    height: 75%;
+    width: 100vw;
     background-color: var(--bg-color);
     color: var(--primary);
 }
-main div.card {
+section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+section div.card {
     height: 30%;
-    width: 30%;
+    width: 10%;
     background-color: var(--secondary);
     color: antiquewhite;
+    display: flex;
+    flex-flow: column nowrap;
+}
+img {
+    height: 90%;
+    width: auto;
 }
