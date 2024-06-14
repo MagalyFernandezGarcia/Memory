@@ -9,17 +9,31 @@
 }
 body {
     width: 100vw;
-    min-height: 100vh;
+    height: 100vh;
 }
 header {
     background-color: var(--primary);
     color: var(--bg-color);
     display: flex;
-    justify-content: space-around;
+   justify-content: center;
     align-items: center;
-    height: 15%;
+    height: 10%;
     width: 100vw;
+   position: relative;
+   
 }
+
+.imageDiv{
+    position: absolute;
+    left: 2%;
+    height: 100%;
+    width: 15%;
+    img{
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
 footer {
     background-color: var(--secondary);
     height: 10%;
