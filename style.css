@@ -44,7 +44,7 @@ footer {
     align-items: center;
 }
 main {
-    height: 75%;
+    height: 80%;
     width: 100vw;
     background-color: var(--bg-color);
     color: var(--primary);
